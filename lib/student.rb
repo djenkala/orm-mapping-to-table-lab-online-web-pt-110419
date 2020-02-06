@@ -37,7 +37,7 @@ class Student
     DB[:conn].execute(sql, self.name, self.grade)
   end
   
-  def self.create
+  def self.create(name, grade)
   
   
   # Remember, you can access your database connection anywhere in this class
