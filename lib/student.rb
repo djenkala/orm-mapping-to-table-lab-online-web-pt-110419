@@ -28,7 +28,9 @@ class Student
     DB[:conn].execute(sql)
   end
     
-  def 
+  def save
+    
+  end
   
   
   # Remember, you can access your database connection anywhere in this class
